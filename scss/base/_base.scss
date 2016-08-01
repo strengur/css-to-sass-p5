@@ -3,12 +3,12 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: $base-text-size;
 }
 
 body {
-  background: #f7f7f7;
-  font-family: 'Libre Baskerville', serif;
+  background: $light-grey;
+  font-family: $text-fonts;
   font-weight: 400;
   color: #333;
 }
@@ -21,7 +21,7 @@ p {
 }
 
 h1, h2, h3, h4, a, .main-nav li, footer p, .contact-page-txt {
-  font-family: 'Lato', sans-serif;
+  font-family: $heading-fonts;
   /*margin: 1.414em 0 0.5em;*/
   font-weight: inherit;
   line-height: 1.2;

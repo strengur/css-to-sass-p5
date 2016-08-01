@@ -6,7 +6,7 @@ html {
 
 body {
   background: #f7f7f7;
-  font-family: 'Libre Baskerville', serif;
+  font-family: "Libre Baskerville", serif;
   font-weight: 400;
   color: #333; }
 
@@ -17,7 +17,7 @@ p {
   margin-bottom: 1.5em; }
 
 h1, h2, h3, h4, a, .main-nav li, footer p, .contact-page-txt {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   /*margin: 1.414em 0 0.5em;*/
   font-weight: inherit;
   line-height: 1.2; }
@@ -115,7 +115,7 @@ header {
   margin: 14px 4px 10px 4px;
   border-radius: 50%; }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   /* ================ HEADER (tablet) ================= */
   .content {
     position: relative;
@@ -138,7 +138,7 @@ header {
     right: 0;
     width: 35%;
     margin-top: 0; } }
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   /* ================ TOP BANNER & NAVIGATION's (tablet) ================= */
   p {
     font-size: 1em; }
@@ -161,7 +161,7 @@ header {
   .main-nav li:last-child,
   .footer-nav-display li:last-child {
     margin-right: 0; } }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   /* ================ TOP BANNER & NAVIGATION (display) ================= */
   nav {
     position: relative;
@@ -216,7 +216,7 @@ section h4 {
 .portfolio-page {
   margin-top: 100px; }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   /* ================ SECTION FOR PAGES (tablet) ================= */
   section,
   .footer-nav-display {
@@ -232,7 +232,7 @@ section h4 {
     display: inline-block;
     vertical-align: top;
     transition-duration: 0.5s; } }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   /* ================ SECTION FOR PAGES (tablet) ================= */
   section {
     max-width: 974px; }
@@ -274,7 +274,7 @@ section h4 {
 .contact-page-icon img {
   width: 70px; }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   /* ================ CONTACT PAGE ================= */
   .contact-page-txt {
     max-width: 750px; } }
@@ -323,7 +323,7 @@ footer {
 .footer-nav-mobile a {
   right: 2%; }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   /* ================ FOOTER (tablet) ================= */
   .footer-nav-mobile {
     display: none; }

@@ -24,7 +24,7 @@ section h4 {
 .map-of-favorite-sports,
 .photo-gallery,
 .calculator {
-  position: relative;
+  @include pos-rel;
   margin-bottom: 80px;
   transition-duration: 0.5s;
 }
@@ -33,7 +33,7 @@ section h4 {
   margin-top: 100px;
 }
 
-@media #{$brk-tablets} {
+@include tablets {
   /* ================ SECTION FOR PAGES (tablet) ================= */
   section,
   .footer-nav-display {
@@ -53,7 +53,7 @@ section h4 {
   }
 }
 
-@media #{$brk-displays} {
+@include displays {
   /* ================ SECTION FOR PAGES (tablet) ================= */
   section {
     max-width: 974px;

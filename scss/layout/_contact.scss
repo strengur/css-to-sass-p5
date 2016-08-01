@@ -1,10 +1,10 @@
 /* ================ CONTACT PAGE ================= */
 .contact-page-txt {
-  position: relative;;
+  @include pos-rel;
   background: #F3EDBF;
   max-width: 500px;
   margin: 100px auto;
-  border-radius: 3px;
+  border-radius: $br;
   text-align: center;
   padding: 1px 15px 40px;
 }
@@ -22,7 +22,7 @@
 }
 
 .contact-page-icon {
-    position: absolute;
+    @include pos-abs;
     top: -34px;
     left: 50%;
     margin-left: -35px;
@@ -32,7 +32,7 @@
     width: 70px;
 }
 
-@media #{$brk-tablets} {
+@include tablets {
   /* ================ CONTACT PAGE ================= */
   .contact-page-txt {
     max-width: 750px;

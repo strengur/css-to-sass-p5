@@ -1,3 +1,14 @@
 // Media query breakpoints
-$brk-tablets  : '(min-width: 768px)';
-$brk-displays : '(min-width: 1024px)';
+// $brk-tablets  : '(min-width: 768px)';
+// $brk-displays : '(min-width: 1024px)';
+
+// Color palette
+$light-grey : #f7f7f7;
+
+// Border radius
+$br : 3px;
+
+// Font stack
+$text-fonts : 'Libre Baskerville', serif;
+$base-text-size  : 16px;
+$heading-fonts  : 'Lato', sans-serif;
