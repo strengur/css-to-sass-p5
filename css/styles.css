@@ -1,0 +1,419 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background: #f7f7f7;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 400;
+  color: #333;
+}
+
+/* ================ BASIC ADJUSTMENTS (FONTS, COLOR, LINE HEIGHT ETC.) ================= */
+p {
+  font-size: 0.85em;
+  line-height: 1.55em;
+  margin-bottom: 1.5em;
+}
+
+h1, h2, h3, h4, a, .main-nav li, footer p, .contact-page-txt {
+  font-family: 'Lato', sans-serif;
+  /*margin: 1.414em 0 0.5em;*/
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 77px;
+  font-size: 6.854em;
+}
+
+h2 {
+  font-size: 4.236em;
+  margin-top: 71px;
+  margin-bottom: 40px;
+}
+
+h3 {
+  font-size: 2.618em;
+  margin-top: 73px;
+  margin-bottom: 45px;
+}
+
+h4 {
+  font-size: 1.618em;
+  margin-top: 65px;
+  margin-bottom: 24px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrap {
+  min-height: calc(100vh - 379px);
+}
+
+.wrap-contact-page {
+  min-height: calc(100vh - 150px);
+}
+
+.portfolio h3,
+.contact h4,
+.footer-nav-mobile a,
+.footer-nav-display li,
+.footer-nav p,
+.footer-nav a {
+  text-transform: uppercase;
+  color: #343229;
+}
+
+/* ================ TOP BANNER & NAVIGATION's ================= */
+.students-name h3 {
+  margin: 30px 0;
+  text-align: center;
+}
+
+.main-nav {
+  position: relative;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.main-nav a {
+  display: block;
+  color: #f7f7f7;
+  padding: 12px;
+}
+
+.main-nav ul {
+  padding-left: 0;
+  margin: 0;
+}
+
+.main-nav li {
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.main-nav li {
+  background: #73715B;
+  margin: 0 5% 5px 5%;
+  border-radius: 3px;
+  text-align: center;
+  letter-spacing: 1.5px;
+}
+
+.main-nav li:hover {
+  background: #343229;
+}
+
+.main-nav li:last-child {
+  margin-bottom: 0;
+}
+
+/* ================ HEADER ================= */
+header {
+  padding-bottom: 20px;
+}
+
+.content {
+  width: 310px;
+  margin: 0 auto;
+  text-align: center;
+}
+.students-profile-image {
+  max-width: 500px;
+  margin: 38px auto;
+  background: #D9D4AB;
+  border-radius: 3px;
+}
+
+.students-profile-image img {
+  margin: 14px 4px 10px 4px;
+  border-radius: 50%;
+}
+
+/* ================ SECTION FOR PAGES ================= */
+section {
+  max-width: 500px;
+  margin: 0px auto;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+section img {
+  max-width: 100%;
+}
+
+section h3 {
+  margin-top: 43px;
+}
+
+section h4 {
+  margin-top: 35px;
+}
+
+.marketing-page,
+.search-page,
+.travel-app,
+.map-of-favorite-sports,
+.photo-gallery,
+.calculator {
+  position: relative;
+  margin-bottom: 80px;
+  transition-duration: 0.5s;
+}
+
+.portfolio-page {
+  margin-top: 100px;
+}
+
+/* ================ CONTACT PAGE ================= */
+.contact-page-txt {
+  position: relative;;
+  background: #F3EDBF;
+  max-width: 500px;
+  margin: 100px auto;
+  border-radius: 3px;
+  text-align: center;
+  padding: 1px 15px 40px;
+}
+
+.contact-page-txt h3 {
+  margin-top: 80px;
+  margin-bottom: 10px;
+}
+
+.contact-page-txt h4 {
+  color: #6f6f6f;
+  margin-top: 5px;
+  margin-bottom: 60px;
+  font-style: italic;
+}
+
+.contact-page-icon {
+    position: absolute;
+    top: -34px;
+    left: 50%;
+    margin-left: -35px;
+}
+
+.contact-page-icon img {
+    width: 70px;
+}
+
+/* ================ FOOTER ================= */
+footer {
+  background: #D9D4AB;
+}
+
+.contact {
+  text-align: center;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 1px 0 50px;
+}
+
+.footer-nav {
+  height: 60px;
+  background: #f7f7f7;
+}
+
+.footer-nav-display {
+  display: none;
+}
+
+.footer-nav p,
+.footer-nav a {
+  font-size: 1em;
+}
+
+.footer-nav-mobile,
+.footer-nav-display {
+  position: relative;
+  width: 95%
+}
+
+.footer-nav-mobile p,
+.footer-nav-mobile a,
+.footer-nav-display p,
+.footer-nav-display ul {
+  display: inline-block;
+  position: absolute;
+  top: 24px;
+}
+
+.footer-nav-mobile p,
+.footer-nav-display p,
+.footer-nav-display ul {
+  margin-top: 0;
+}
+
+.footer-nav-mobile p {
+  left: 2%;
+}
+
+.footer-nav-mobile a {
+  right: 2%;
+}
+
+@media screen and (min-width: 768px) {
+  /* ================ TOP BANNER & NAVIGATION's (tablet) ================= */
+  p {
+    font-size: 1em;
+  }
+
+  header {
+    height: 228px;
+  }
+
+  .main-nav {
+    max-width: 21.9em;
+  }
+
+  .main-nav li,
+  .footer-nav-display li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  .main-nav li {
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+
+  .main-nav li:last-child,
+  .footer-nav-display li:last-child {
+    margin-right: 0;
+  }
+
+  /* ================ HEADER (tablet) ================= */
+  .content {
+    position: relative;
+    width: 750px;
+    margin-top: 60px;
+  }
+
+  .students-bio {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    text-align: left;
+  }
+
+  .students-bio p {
+    margin-top: 0;
+  }
+
+  .students-profile-image {
+    position: absolute;;
+    top: 0;
+    right: 0;
+    width: 35%;
+    margin-top: 0;
+  }
+
+  /* ================ SECTION FOR PAGES (tablet) ================= */
+  section,
+  .footer-nav-display {
+    max-width: 896px;
+  }
+
+  .marketing-page,
+  .search-page,
+  .travel-app,
+  .map-of-favorite-sports,
+  .photo-gallery,
+  .calculator {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+    transition-duration: 0.5s;
+  }
+
+  /* ================ CONTACT PAGE ================= */
+  .contact-page-txt {
+    max-width: 750px;
+  }
+
+
+  /* ================ FOOTER (tablet) ================= */
+  .footer-nav-mobile {
+    display: none;
+  }
+
+  .contact {
+    max-width: 430px;
+  }
+
+  .footer-nav-display {
+    margin: auto;
+    display: block;
+  }
+
+
+
+  .footer-nav-display p {
+    left: 0;
+  }
+
+  .footer-nav-display ul {
+    right: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  /* ================ TOP BANNER & NAVIGATION (display) ================= */
+  nav {
+    position: relative;
+    max-width: 1024px;
+    height: 64px;
+    margin: 0 auto;
+  }
+
+  .students-name {
+    position: absolute;
+    left: 40px;
+  }
+
+  .students-name h3 {
+    margin: 5px 0;
+  }
+
+  .main-nav {
+    position: absolute;
+    right: 40px;
+    top: 15px;
+  }
+
+  .main-nav a {
+    padding: 5px 12px;
+  }
+
+  /* ================ HEADER (display) ================= */
+  .content {
+    width: 946px;
+  }
+
+  /* ================ SECTION FOR PAGES (tablet) ================= */
+  section {
+    max-width: 974px;
+  }
+
+  .marketing-page,
+  .search-page,
+  .travel-app,
+  .map-of-favorite-sports,
+  .photo-gallery,
+  .calculator {
+    width: 32%;
+    transition-duration: 0.5s;
+  }
+}
