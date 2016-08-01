@@ -1,0 +1,40 @@
+/* ================ CONTACT PAGE ================= */
+.contact-page-txt {
+  position: relative;;
+  background: #F3EDBF;
+  max-width: 500px;
+  margin: 100px auto;
+  border-radius: 3px;
+  text-align: center;
+  padding: 1px 15px 40px;
+}
+
+.contact-page-txt h3 {
+  margin-top: 80px;
+  margin-bottom: 10px;
+}
+
+.contact-page-txt h4 {
+  color: #6f6f6f;
+  margin-top: 5px;
+  margin-bottom: 60px;
+  font-style: italic;
+}
+
+.contact-page-icon {
+    position: absolute;
+    top: -34px;
+    left: 50%;
+    margin-left: -35px;
+}
+
+.contact-page-icon img {
+    width: 70px;
+}
+
+@media #{$brk-tablets} {
+  /* ================ CONTACT PAGE ================= */
+  .contact-page-txt {
+    max-width: 750px;
+  }
+}

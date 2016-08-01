@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background: #f7f7f7;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 400;
+  color: #333;
+}
+
+/* ================ BASIC ADJUSTMENTS (FONTS, COLOR, LINE HEIGHT ETC.) ================= */
+p {
+  font-size: 0.85em;
+  line-height: 1.55em;
+  margin-bottom: 1.5em;
+}
+
+h1, h2, h3, h4, a, .main-nav li, footer p, .contact-page-txt {
+  font-family: 'Lato', sans-serif;
+  /*margin: 1.414em 0 0.5em;*/
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 77px;
+  font-size: 6.854em;
+}
+
+h2 {
+  font-size: 4.236em;
+  margin-top: 71px;
+  margin-bottom: 40px;
+}
+
+h3 {
+  font-size: 2.618em;
+  margin-top: 73px;
+  margin-bottom: 45px;
+}
+
+h4 {
+  font-size: 1.618em;
+  margin-top: 65px;
+  margin-bottom: 24px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrap {
+  min-height: calc(100vh - 379px);
+}
+
+.wrap-contact-page {
+  min-height: calc(100vh - 150px);
+}
+
+.portfolio h3,
+.contact h4,
+.footer-nav-mobile a,
+.footer-nav-display li,
+.footer-nav p,
+.footer-nav a {
+  text-transform: uppercase;
+  color: #343229;
+}

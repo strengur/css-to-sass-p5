@@ -1,0 +1,80 @@
+/* ================ FOOTER ================= */
+footer {
+  background: #D9D4AB;
+}
+
+.contact {
+  text-align: center;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 1px 0 50px;
+}
+
+.footer-nav {
+  height: 60px;
+  background: #f7f7f7;
+}
+
+.footer-nav-display {
+  display: none;
+}
+
+.footer-nav p,
+.footer-nav a {
+  font-size: 1em;
+}
+
+.footer-nav-mobile,
+.footer-nav-display {
+  position: relative;
+  width: 95%
+}
+
+.footer-nav-mobile p,
+.footer-nav-mobile a,
+.footer-nav-display p,
+.footer-nav-display ul {
+  display: inline-block;
+  position: absolute;
+  top: 24px;
+}
+
+.footer-nav-mobile p,
+.footer-nav-display p,
+.footer-nav-display ul {
+  margin-top: 0;
+}
+
+.footer-nav-mobile p {
+  left: 2%;
+}
+
+.footer-nav-mobile a {
+  right: 2%;
+}
+
+@media #{$brk-tablets} {
+  /* ================ FOOTER (tablet) ================= */
+  .footer-nav-mobile {
+    display: none;
+  }
+
+  .contact {
+    max-width: 430px;
+  }
+
+  .footer-nav-display {
+    margin: auto;
+    display: block;
+  }
+
+
+
+  .footer-nav-display p {
+    left: 0;
+  }
+
+  .footer-nav-display ul {
+    right: 0;
+  }
+}

@@ -1,0 +1,71 @@
+/* ================ SECTION FOR PAGES ================= */
+section {
+  max-width: 500px;
+  margin: 0px auto;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+section img {
+  max-width: 100%;
+}
+
+section h3 {
+  margin-top: 43px;
+}
+
+section h4 {
+  margin-top: 35px;
+}
+
+.marketing-page,
+.search-page,
+.travel-app,
+.map-of-favorite-sports,
+.photo-gallery,
+.calculator {
+  position: relative;
+  margin-bottom: 80px;
+  transition-duration: 0.5s;
+}
+
+.portfolio-page {
+  margin-top: 100px;
+}
+
+@media #{$brk-tablets} {
+  /* ================ SECTION FOR PAGES (tablet) ================= */
+  section,
+  .footer-nav-display {
+    max-width: 896px;
+  }
+
+  .marketing-page,
+  .search-page,
+  .travel-app,
+  .map-of-favorite-sports,
+  .photo-gallery,
+  .calculator {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+    transition-duration: 0.5s;
+  }
+}
+
+@media #{$brk-displays} {
+  /* ================ SECTION FOR PAGES (tablet) ================= */
+  section {
+    max-width: 974px;
+  }
+
+  .marketing-page,
+  .search-page,
+  .travel-app,
+  .map-of-favorite-sports,
+  .photo-gallery,
+  .calculator {
+    width: 32%;
+    transition-duration: 0.5s;
+  }
+}
