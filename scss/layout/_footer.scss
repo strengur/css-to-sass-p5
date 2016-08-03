@@ -4,7 +4,7 @@ footer {
 }
 
 .contact {
-  text-align: center;
+  @extend %centered;
   max-width: 300px;
   margin: 0 auto;
   padding: 1px 0 50px;

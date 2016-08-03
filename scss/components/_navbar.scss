@@ -1,0 +1,70 @@
+.main-nav {
+  @include pos-rel;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.main-nav a {
+  display: block;
+  color: $light-grey;
+  padding: 12px;
+}
+
+.main-nav ul {
+  padding-left: 0;
+  margin: 0;
+}
+
+.main-nav li {
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.main-nav li {
+  background: #73715B;
+  margin: 0 5% 5px 5%;
+  border-radius: $br;
+  @extend %centered;
+  letter-spacing: 1.5px;
+}
+
+.main-nav li:hover {
+  background: #343229;
+}
+
+.main-nav li:last-child {
+  margin-bottom: 0;
+}
+
+@include tablets {
+  .main-nav {
+    max-width: 21.9em;
+  }
+
+  .main-nav li,
+  .footer-nav-display li {
+    @include nav-li;
+  }
+
+  .main-nav li {
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+
+  .main-nav li:last-child,
+  .footer-nav-display li:last-child {
+    margin-right: 0;
+  }
+}
+
+@include displays {
+  .main-nav {
+    @include pos-abs;
+    right: 40px;
+    top: 15px;
+  }
+
+  .main-nav a {
+    padding: 5px 12px;
+  }
+}

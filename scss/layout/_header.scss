@@ -1,45 +1,7 @@
 /* ================ TOP BANNER & NAVIGATION's ================= */
 .students-name h3 {
   margin: 30px 0;
-  text-align: center;
-}
-
-.main-nav {
-  @include pos-rel;
-  max-width: 500px;
-  margin: 0 auto;
-}
-
-.main-nav a {
-  display: block;
-  color: $light-grey;
-  padding: 12px;
-}
-
-.main-nav ul {
-  padding-left: 0;
-  margin: 0;
-}
-
-.main-nav li {
-  list-style: none;
-  text-transform: uppercase;
-}
-
-.main-nav li {
-  background: #73715B;
-  margin: 0 5% 5px 5%;
-  border-radius: $br;
-  text-align: center;
-  letter-spacing: 1.5px;
-}
-
-.main-nav li:hover {
-  background: #343229;
-}
-
-.main-nav li:last-child {
-  margin-bottom: 0;
+  @extend %centered;
 }
 
 /* ================ HEADER ================= */
@@ -50,7 +12,7 @@ header {
 .content {
   width: 310px;
   margin: 0 auto;
-  text-align: center;
+  @extend %centered;
 }
 .students-profile-image {
   max-width: 500px;
@@ -91,9 +53,6 @@ header {
     width: 35%;
     margin-top: 0;
   }
-}
-
-@include tablets {
   /* ================ TOP BANNER & NAVIGATION's (tablet) ================= */
   p {
     font-size: 1em;
@@ -103,19 +62,9 @@ header {
     height: 228px;
   }
 
-  .main-nav {
-    max-width: 21.9em;
-  }
-
   .main-nav li,
   .footer-nav-display li {
-    display: inline-block;
-    margin-right: 10px;
-  }
-
-  .main-nav li {
-    margin-left: 0;
-    margin-bottom: 0;
+    @include nav-li;
   }
 
   .main-nav li:last-child,
@@ -140,16 +89,6 @@ header {
 
   .students-name h3 {
     margin: 5px 0;
-  }
-
-  .main-nav {
-    @include pos-abs;
-    right: 40px;
-    top: 15px;
-  }
-
-  .main-nav a {
-    padding: 5px 12px;
   }
 
   /* ================ HEADER (display) ================= */

@@ -22,3 +22,9 @@ $brk-displays : 1024px;
     @content;
   }
 }
+
+// Navigation li adjustmen for Nav and Footer
+@mixin nav-li {
+  display: inline-block;
+  margin-right: 10px;
+}
