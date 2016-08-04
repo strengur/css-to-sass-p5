@@ -1,11 +1,11 @@
 /* ================ CONTACT PAGE ================= */
 .contact-page-txt {
   @include pos-rel;
-  background: #F3EDBF;
+  background: $ylw-gray;
   max-width: 500px;
   margin: 100px auto;
   border-radius: $br;
-  text-align: center;
+  @extend %centered;
   padding: 1px 15px 40px;
 }
 
@@ -15,7 +15,7 @@
 }
 
 .contact-page-txt h4 {
-  color: #6f6f6f;
+  color: $gray;
   margin-top: 5px;
   margin-bottom: 60px;
   font-style: italic;

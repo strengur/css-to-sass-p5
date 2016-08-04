@@ -17,7 +17,7 @@ header {
 .students-profile-image {
   max-width: 500px;
   margin: 38px auto;
-  background: #D9D4AB;
+  background: $ylw-gray;
   border-radius: $br;
 }
 
@@ -40,10 +40,10 @@ header {
     left: 0;
     width: 60%;
     text-align: left;
-  }
 
-  .students-bio p {
-    margin-top: 0;
+    p {
+      margin-top: 0;
+    }
   }
 
   .students-profile-image {
@@ -85,10 +85,10 @@ header {
   .students-name {
     @include pos-abs;
     left: 40px;
-  }
 
-  .students-name h3 {
-    margin: 5px 0;
+    h3 {
+      margin: 5px 0;
+    }
   }
 
   /* ================ HEADER (display) ================= */

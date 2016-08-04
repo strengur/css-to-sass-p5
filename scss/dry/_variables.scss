@@ -1,12 +1,15 @@
-// Media query breakpoints
-// $brk-tablets  : '(min-width: 768px)';
-// $brk-displays : '(min-width: 1024px)';
-
 // Color palette
-$light-grey : #f7f7f7;
+$light-gray : #f7f7f7;
+$text-color : #333;
+$ylw-gray   : #D9D4AB;
+$gray       : #6f6f6f;
+$dark-brown : #343229;
 
 // Border radius
 $br : 3px;
+
+// Letters adjustments
+$incr-spacing  : 1.5px;
 
 // Font stack
 $text-fonts : 'Libre Baskerville', serif;

@@ -2,20 +2,20 @@
 section {
   max-width: 500px;
   margin: 0px auto;
-  text-align: center;
+  @extend %centered;
   padding-bottom: 20px;
-}
 
-section img {
-  max-width: 100%;
-}
+  img {
+    max-width: 100%;
+  }
 
-section h3 {
-  margin-top: 43px;
-}
+  h3 {
+    margin-top: 43px;
+  }
 
-section h4 {
-  margin-top: 35px;
+  h4 {
+    margin-top: 35px;
+  }
 }
 
 .marketing-page,
@@ -26,7 +26,7 @@ section h4 {
 .calculator {
   @include pos-rel;
   margin-bottom: 80px;
-  transition-duration: 0.5s;
+  @extend %transition;
 }
 
 .portfolio-page {
@@ -35,8 +35,7 @@ section h4 {
 
 @include tablets {
   /* ================ SECTION FOR PAGES (tablet) ================= */
-  section,
-  .footer-nav-display {
+  section {
     max-width: 896px;
   }
 
@@ -49,7 +48,6 @@ section h4 {
     width: 49%;
     display: inline-block;
     vertical-align: top;
-    transition-duration: 0.5s;
   }
 }
 
@@ -66,6 +64,5 @@ section h4 {
   .photo-gallery,
   .calculator {
     width: 32%;
-    transition-duration: 0.5s;
   }
 }

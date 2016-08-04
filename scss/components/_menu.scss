@@ -1,0 +1,23 @@
+.menu-button {
+  @include pos-abs;
+  @extend %transition;
+  display: inline-block;
+  top: 20px;
+  right: 20px;
+
+  img {
+    width: 30px;
+    height: auto;
+  }
+}
+
+.rotate {
+  transform: rotate(-45deg);
+  @extend %transition;
+}
+
+@include tablets {
+  .menu-button {
+    display: none;
+  }
+}

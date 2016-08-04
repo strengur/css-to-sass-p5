@@ -7,10 +7,10 @@ html {
 }
 
 body {
-  background: $light-grey;
+  background: $light-gray;
   font-family: $text-fonts;
   font-weight: 400;
-  color: #333;
+  color: $text-color;
 }
 
 /* ================ BASIC ADJUSTMENTS (FONTS, COLOR, LINE HEIGHT ETC.) ================= */
@@ -70,5 +70,5 @@ a {
 .footer-nav p,
 .footer-nav a {
   text-transform: uppercase;
-  color: #343229;
+  color: $dark-brown;
 }

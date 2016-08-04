@@ -1,6 +1,6 @@
 /* ================ FOOTER ================= */
 footer {
-  background: #D9D4AB;
+  background: $ylw-gray;
 }
 
 .contact {
@@ -10,18 +10,17 @@ footer {
   padding: 1px 0 50px;
 }
 
-.footer-nav {
-  height: 60px;
-  background: $light-grey;
-}
-
 .footer-nav-display {
   display: none;
 }
 
-.footer-nav p,
-.footer-nav a {
-  font-size: 1em;
+.footer-nav {
+  height: 60px;
+  background: $light-gray;
+
+  p, a {
+    font-size: 1em;
+  }
 }
 
 .footer-nav-mobile,
@@ -66,6 +65,7 @@ footer {
   .footer-nav-display {
     margin: auto;
     display: block;
+    max-width: 896px;
   }
 
   .footer-nav-display p {
@@ -74,5 +74,12 @@ footer {
 
   .footer-nav-display ul {
     right: 0;
+  }
+  .footer-nav-display li {
+    @include nav-li;
+  }
+
+  .footer-nav-display li:last-child {
+    margin-right: 0;
   }
 }
