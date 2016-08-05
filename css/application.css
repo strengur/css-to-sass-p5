@@ -9,17 +9,6 @@
 .calculator, .menu-button, .rotate {
   transition-duration: 0.5s; }
 
-.students-name h3, .content, section, .contact-page-txt, .contact, .main-nav li {
-  text-align: center; }
-
-.marketing-page,
-.search-page,
-.travel-app,
-.map-of-favorite-sports,
-.photo-gallery,
-.calculator, .menu-button, .rotate {
-  transition-duration: 0.5s; }
-
 * {
   box-sizing: border-box; }
 
@@ -81,17 +70,6 @@ a {
 .footer-nav a {
   text-transform: uppercase;
   color: #343229; }
-
-.students-name h3, .content, section, .contact-page-txt, .contact, .main-nav li {
-  text-align: center; }
-
-.marketing-page,
-.search-page,
-.travel-app,
-.map-of-favorite-sports,
-.photo-gallery,
-.calculator, .menu-button, .rotate {
-  transition-duration: 0.5s; }
 
 /* ================ TOP BANNER & NAVIGATION's ================= */
 .students-name h3 {
@@ -319,17 +297,6 @@ footer {
 
   .footer-nav-display li:last-child {
     margin-right: 0; } }
-.students-name h3, .content, section, .contact-page-txt, .contact, .main-nav li {
-  text-align: center; }
-
-.marketing-page,
-.search-page,
-.travel-app,
-.map-of-favorite-sports,
-.photo-gallery,
-.calculator, .menu-button, .rotate {
-  transition-duration: 0.5s; }
-
 .main-nav {
   position: relative;
   max-width: 500px;
